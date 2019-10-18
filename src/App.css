@@ -1,7 +1,76 @@
+body{
+  overflow-y: hidden;
+}
 .App {
-  text-align: center;
+  color: black;
 }
 
+.App .left{
+  background: #61dafb;
+  width: 40%;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.App .left .activo{
+  transform: translate(80%);
+}
+.container-saludo{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 15px;
+  margin: 10px 10px;
+}
+.container-block{
+  padding:190px 40px;
+}
+.btnSubmit{
+  border-radius: 40px;
+  width: 50%;
+  padding: 10px 40px;
+  background: #61dafb;
+  margin: 40px;
+}
+
+.App .rigth{
+  position: relative;
+  width: 60%;
+  height: 100vh;
+  text-align: center;
+  right: 0px;
+  margin: 0 40%;
+  float: left;
+  bottom: 543px;
+}
+.container-title{
+  color: aqua;
+}
+.App .enlases-nav a{
+  color: black;
+  margin: 10px;
+  text-decoration: none;
+  border: 1px solid #282c34;
+  border-radius: 20px;
+  border-bottom-left-radius: 2px;
+  border-spacing: 10px;
+  padding: 2px 9px;
+}
+
+.App .cajas{
+  outline: none;
+  padding: 15px 15px;
+  margin: 10px 0 20px 0;
+  border: none;
+}
+.App .btnSignUp{
+  border-radius: 40px;
+  width: 30%;
+  padding: 10px 40px;
+  background: #61dafb;
+  margin: 40px;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
